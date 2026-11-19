@@ -1,0 +1,22 @@
+# Dependências
+node_modules/
+
+# Builds
+dist/
+build/
+
+# Variáveis de ambiente (o .env.example pode ir pro git)
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / SO
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
